@@ -1,6 +1,11 @@
 package entity;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Item {
+    @Id
     private String code;
     private String item;
     private double price;
